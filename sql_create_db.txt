@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS KistaSDB_2012 (frequency INT NOT NULL,location INT NOT NULL,start_time TEXT NOT NULL,stop_time TEXT NOT NULL,PRIMARY KEY(frequency, location, start_time, stop_time))
