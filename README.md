@@ -14,8 +14,8 @@ SDB-Creator is such a program that uses sqlite3 C API and gets values from two c
 ## Build & Install
 ### Prerequisites
 Install sqlite3 and its library:
-1. `apt-get install sqlite3`
-2. `apt-get install sqlite3-dev`
+1.  `apt-get install sqlite3`
+2.  `apt-get install sqlite3-dev`
 
 ### Buidling
 Follow the below steps to build it.
@@ -31,7 +31,7 @@ Follow the below strps to create a SDB
 3.  `./create_test_sdb sql_create_db.txt pop_db.txt` to create a sqlite3 file 
 
 So far a file called sdb.sqlite3 has been created. In the same directory, execute command `sqlite3 sdb.sqlite3` to access the SDB:
->select * from KistaSDB_2012;
+1.   `>select * from KistaSDB_2012;`
   (This command will show all the values in this table)
->.quit
+2.  `>.quit`
   (To quit sqlite3, don't forget the dot in front)
